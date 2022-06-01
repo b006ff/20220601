@@ -34,6 +34,7 @@ clearButton.addEventListener("click", () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
 });
 
+
 let isDrag = false;
 
 function draw(x, y) {
